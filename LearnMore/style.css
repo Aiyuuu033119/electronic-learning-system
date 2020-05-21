@@ -1,0 +1,815 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #212121;
+}
+
+.btn-large.btnModifySizeAdd,
+.btn-large.btnModifySizeSearch {
+    height: 44px;
+    line-height: 44px;
+}
+
+tbody {
+    display: block;
+    height: 400px;
+    overflow: auto;
+}
+
+tbody.resize {
+    display: block;
+    height: 369px;
+    overflow: auto;
+}
+
+thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+thead {
+    width: 100%;
+    border-radius: 25px 25px 0 0px;
+}
+
+table {
+    width: 100%;
+}
+
+.modalBackground {
+    background: url('basketball.png');
+}
+
+table.highlight>tbody>tr.textColor:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* New Style*/
+
+.fontStyle {
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.fontStyle span {
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #ff3d00, #ffea00);
+}
+
+.fontStyle2 {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.fontStyle2 span {
+    padding: 4px;
+    margin-left: 4px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ff3d00, #ffea00);
+}
+
+.card.bgCard {
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.8);
+    border: 3px solid black;
+}
+
+.card.bgCard1 {
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.8);
+}
+
+.container.bgCard {
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.8);
+}
+
+.iconType {
+    font-size: 120px;
+    color: white;
+}
+
+.iconType2 {
+    font-size: 60px;
+    color: white;
+}
+
+.fontStyleHome {
+    font-size: 20px;
+}
+
+.fontStyleHome span {
+    padding: 3px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ff3d00, #ffea00);
+}
+
+.dropdown-content li>a.dropdownHover {
+    color: white;
+    background-color: rgb(0, 0, 0, 0.7)
+}
+
+.dropdown-content li>a.dropdownHover:hover {
+    background: #ff6f00;
+}
+
+.dropdown-content li>span.dropdownHover {
+    color: white;
+    background-color: rgb(0, 0, 0, 0.7);
+    cursor: default;
+}
+
+.dropdown-content li>span.dropdownHover:hover {
+    background: #ff6f00;
+}
+
+.classSub {
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+}
+
+.classSub:hover {
+    border-bottom: 1px solid black;
+}
+
+.btn-large.btnHover,
+.btn-large.btnHover:active,
+.btn-large.btnHover:focus {
+    background-color: transparent;
+    color: white;
+    font-weight: bold
+}
+
+.btn-large.btnHover:hover {
+    color: black;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff3d00, #ffea00);
+}
+
+.btn-large.btnHoverActive {
+    color: black;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff3d00, #ffea00);
+}
+
+.card .card-content.padBot {
+    padding-bottom: 0;
+}
+
+.collection.noBorder {
+    border: 0px;
+}
+
+.collection .collection-item.colHover {
+    color: white;
+    background-color: #424242;
+    border: 0px;
+    cursor: pointer;
+}
+
+.collection .collection-item.colHover2 {
+    color: white;
+    background-color: #212121;
+    border: 0px;
+}
+
+.collection a.collection-item.colHover:not(.active):hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.collection p.collection-item.colHover:not(.active):hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.collection a.collection-item.colHover2:not(.active):hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal.popup {
+    width: 50%;
+}
+
+.modal.popup2 {
+    width: 60%;
+}
+
+.modal.popup3 {
+    width: 65%;
+    max-height: 90%;
+}
+
+.modal.addQuiz {
+    width: 80%;
+}
+
+.row.panel {
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.8);
+}
+
+.letter {
+    padding: 7px 0 8px 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.lettera,
+.letterb,
+.letterc,
+.letterd {
+    background: linear-gradient(to right, #ff3d00, #ffea00);
+    cursor: pointer;
+    border-radius: 25px 0 0 25px;
+    border: 2px solid black;
+}
+
+.a1,
+.b1,
+.c1,
+.d1 {
+    background: linear-gradient(to right, #ff3d00, #ffea00);
+    cursor: pointer;
+    border-radius: 25px 0 0 25px;
+}
+
+.true,
+.false {
+    background: linear-gradient(to right, #ff3d00, #ffea00);
+    border: 3px solid black;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.closeBtn {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-right: 2%;
+    margin-top: -15px;
+    cursor: pointer;
+    width: 40px;
+    background: #f44336;
+    text-align: center;
+    border-radius: 50px;
+    padding: 0 5px 2px;
+}
+
+.click,
+.adminHover a {
+    cursor: pointer;
+    color: white
+}
+
+.click:hover,
+.adminHover:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, #ff3d00, #ffea00);
+    color: black;
+}
+
+.adminHover:hover a {
+    color: black;
+}
+
+.adminClick {
+    background: linear-gradient(to right, #ff3d00, #ffea00);
+}
+
+.adminClick a {
+    color: black;
+}
+
+.callModal {
+    margin-right: 4px;
+}
+
+h3.zeroMargin,
+h4.zeroMargin {
+    margin-top: 0;
+}
+
+.modal .modal-content.noPadding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.card .card-content.noPadding {
+    padding-top: 10px;
+}
+
+.txtFormat {
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.removeBtn {
+    margin-top: 5px;
+    height: 40px;
+    cursor: pointer;
+    line-height: 18px;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.removeBtn2 {
+    position: fixed;
+    margin-top: 5px;
+    border-radius: 50%;
+    background-color: #f44336;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    line-height: 18px;
+    color: white;
+    margin-left: 94px;
+}
+
+.row .col.l1.choosePad {
+    padding: 8px 0;
+    border: 2px solid black;
+    margin: 2px 0;
+}
+
+.row .col.l1.choosePad {
+    padding: 10px 0;
+    border: 2px solid black;
+    margin: 7px 0;
+    background: linear-gradient(to right, #ff3d00, #ffea00);
+    border-radius: 20px 0 0 20px;
+    cursor: pointer;
+    color: black;
+}
+
+.row .col.l11.selection {
+    padding: 10px 0;
+    border: 2px solid black;
+    margin: 7px 0;
+    background: white;
+    color: black;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.row .col.l1.choosePad2 {
+    padding: 10px 0;
+    border: 2px solid black;
+    margin: 7px 0;
+    background: linear-gradient(to right, #ff3d00, #ffea00);
+    border-radius: 20px 0 0 20px;
+    color: black;
+}
+
+.row .col.l11.selection2 {
+    padding: 10px 0;
+    border: 2px solid black;
+    margin: 7px 0;
+    background: white;
+    color: black;
+    border-radius: 0 20px 20px 0;
+}
+
+.row .col.l3.choosePad {
+    padding: 10px 0;
+    border: 2px solid black;
+    margin: 5px 0;
+    background: linear-gradient(to right, #ff3d00, #ffea00);
+    border-radius: 20px 0 0 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+}
+
+.row .col.l9.selection {
+    padding: 10px 0;
+    border: 2px solid black;
+    margin: 5px 0;
+    background: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+img.iconImages {
+    max-width: 100%;
+    height: 90px;
+}
+
+img.dpIcon {
+    max-width: 100%;
+    height: 115px;
+}
+
+.back {
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.back2 {
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.back3 {
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+.back4 {
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 2px solid #ff5722;
+}
+
+.back5 {
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 2px solid #009688;
+}
+
+#titleNum {
+    font-size: 35px;
+}
+
+.backBorder {
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 10px 100% 100% 10px;
+}
+
+.names,
+.accept,
+.decline {
+    cursor: pointer;
+}
+
+.names:hover {
+    text-decoration: underline;
+}
+
+input[type="text"]:not(.browser-default).border-radius2 {
+    border-radius: 0 50px 50px 0;
+    border: 2px solid #424242;
+}
+
+input[type="text"]:not(.browser-default).border-radius,
+textarea.materialize-textarea.border-radius,
+input[type=password]:not(.browser-default).border-radius {
+    border-radius: 50px;
+    border: 2px solid #424242;
+}
+
+.input-field.border-radius {
+    border-radius: 50px;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]).border-color,
+textarea.materialize-textarea:focus:not([readonly]).border-color,
+textarea.materialize-textarea:focus:not([readonly])+label.border-color,
+input[type=password]:not(.browser-default):focus:not([readonly]).border-color {
+    border: 2px solid #f39e1f;
+}
+
+img.tblIcon {
+    max-width: 100%;
+    height: 30px;
+    padding: 0;
+}
+
+td.no-paddingTbl {
+    padding: 5px 0px;
+}
+
+td.no-paddingTbl2 {
+    padding: 10px 0px;
+}
+
+.fas.iconStyle {
+    font-size: 15px;
+}
+
+.small-font {
+    font-size: 11px;
+    margin-top: -10px;
+    margin-left: 38px;
+    float: left;
+}
+
+.background-img .user-view {
+    position: relative;
+    padding: 100px 32px 0;
+    margin-bottom: 8px;
+    height: 500px;
+}
+
+.background-img .user-view .background {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.background-img .user-view>a {
+    height: auto;
+    padding: 0;
+}
+
+.background-img .user-view .circle,
+.background-img .user-view .name,
+.background-img .user-view .email,
+.background-img .userView .circle {
+    display: block;
+}
+
+.background-img .user-view .circle {
+    height: 280px;
+    width: 280px;
+    border: 8px solid #424242;
+}
+
+.background-img .user-view .name,
+.background-img .user-view .email,
+.background-img .userView .name,
+.background-img .userView .email {
+    line-height: 24px;
+}
+
+.background-img .user-view .name,
+.background-img .userView .name {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.background-img .user-view .email,
+.background-img .userView .email {
+    font-weight: 500;
+    margin-top: -25px;
+    font-size: 40px;
+}
+
+.section.no-padding-bottom {
+    padding-bottom: 0px;
+}
+
+.modal .modal-content.no-padding-bot-top,
+.section.no-padding-bot-top {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.card .card-content.no-padding-bot-top {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.dp-img .user-view .background {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.dp-img .user-view>a {
+    height: auto;
+    padding: 0;
+}
+
+.dp-img .user-view .circle,
+.dp-img .user-view .name,
+.dp-img .user-view .email,
+.dp-img .userView .circle {
+    display: block;
+}
+
+.dp-img .user-view .circle {
+    height: 200px;
+    width: 200px;
+    border: 8px solid #424242;
+}
+
+.card .card-content.padding15 {
+    padding: 15px;
+}
+
+.dpProfile .user-view .background {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.dpProfile .user-view>a {
+    height: auto;
+    padding: 0;
+}
+
+.dpIcons .user-view .circle,
+.dpIcons .user-view .name,
+.dpIcons .user-view .email,
+.dpIcons .userView .circle {
+    display: block;
+}
+
+.dpIcons .user-view .circle {
+    height: 37px;
+    width: 37px;
+    border: 2px solid white;
+}
+
+.dpProfile .user-view .background {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.dpProfile .user-view>a {
+    height: auto;
+    padding: 0;
+}
+
+.dpProfile .user-view .circle,
+.dpProfile .user-view .square,
+.dpProfile .user-view .name,
+.dpProfile .user-view .email,
+.dpProfile .userView .circle {
+    display: block;
+}
+
+.dpProfile .user-view .square {
+    height: 270px;
+    width: 361px;
+    border: 8px solid white;
+}
+
+.dpProfile .user-view .class {
+    height: 365px;
+    width: 515px;
+}
+
+.row .col.no-width {
+    width: 0%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.border-line:hover {
+    border-bottom: 1px solid white;
+}
+
+.dp-img2 .user-view .background {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.dp-img2 .user-view>a {
+    height: auto;
+    padding: 0;
+}
+
+.dp-img .user-view .circle,
+.dp-img .user-view .name,
+.dp-img .user-view .email,
+.dp-img .userView .circle {
+    display: block;
+}
+
+.dp-img2 .user-view .circle {
+    height: 190px;
+    width: 190px;
+    border: 8px solid #424242;
+}
+
+.bgbody {
+    background: url('basketball.png');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.transition {
+    transition: 0.2s ease-out;
+    /* transform: ;/ */
+}
+
+.brand-logo.web-title {
+    font-size: 18px;
+}
+
+.brand-logo.web-title span {
+    padding: 3px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ff3d00, #ffea00);
+}
+
+.non-visible {
+    display: none;
+    transition: 1s ease-in;
+}
+
+.visible {
+    display: unset;
+    transition: 1s ease-out;
+}
+
+.admin .user-view {
+    position: relative;
+    padding: 160px 32px 0;
+    margin-bottom: 8px;
+    height: 500px;
+}
+
+.admin .user-view .background {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.admin .user-view>a {
+    height: auto;
+    padding: 0;
+}
+
+.admin .user-view .circle,
+.admin .user-view .name,
+.admin .user-view .email,
+.admin .userView .circle {
+    display: block;
+}
+
+.admin .user-view .circle {
+    height: 210px;
+    width: 210px;
+    border: 8px solid #424242;
+}
+
+.admin .user-view .name,
+.admin .user-view .email,
+.admin .userView .name,
+.admin .userView .email {
+    line-height: 24px;
+}
+
+.admin .user-view .name,
+.admin .userView .name {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.admin .user-view .email,
+.admin .userView .email {
+    font-weight: 500;
+    margin-top: -25px;
+    font-size: 40px;
+}
